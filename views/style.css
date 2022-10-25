@@ -82,6 +82,7 @@
   /* select for all */
   select {
     width: 100%;
+    margin-top:10px;
     background-color: #eeeeee;
     /* background: transparent; */
     border: none;
@@ -159,13 +160,14 @@
   
   /* for selecting elements whose class attribute is todo__category */
     #task-category{
+      margin-bottom:-10px;
     font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 0.1rem;
+    padding: 0.5rem;
    color: red;
     position: absolute;
     right: 2rem;
-    top: 1.10rem;
+    top: 1.50rem;
   }
   
   /* for selecting elements whose class attribute is todo__due -date */
