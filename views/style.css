@@ -1,0 +1,198 @@
+/* for whole conatiner */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* root tag for all element */
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  /* main body part */
+  body {
+    margin: 20px;
+    /* background: #0f2027; fallback for old browsers */
+    background: black;
+    /*color of all category*/
+    color:orange;
+     /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  /* h1 style */
+  h1 {
+    font-size: 3rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  input{
+    margin-top:12px;
+  }
+  input[type="text"] {
+    font-size: 1.5rem;
+    background-color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  #page-heading{
+    text-align:center;
+    margin-top: 25px;
+    color:rgb(10, 217, 221);
+  }
+  /* styling all label  */
+  label {
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+  
+  /* styling all container */
+  .container {
+    background-color: #fff;
+    border-radius: 5%;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: -1px -1px 6px 8px #b74c4c;
+  }
+  
+  .container h1 {
+    text-align: center;
+  }
+  
+  .container .row {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+  }
+  
+  .col-1-of-2 {
+    width: 50%;
+  }
+  
+  .col-1-of-1 {
+    width: 100%;
+  }
+  
+  /* select for all */
+  select {
+    width: 100%;
+    background-color: #eeeeee;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+  }
+  
+  /* button style for add and delete */
+  button {
+    display: inline-block;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: -15px;
+  }
+  
+  /* style for add button */
+  button:nth-of-type(1) {
+    background-color:#eeeeee;
+  }
+  
+  button:nth-of-type(1):hover {
+    background-color: #eeeeee;
+  }
+  
+  /* style for delete button */
+  button:nth-of-type(2) {
+    background-color: #bd4545;
+  }
+  
+  button:nth-of-type(2):hover {
+    background-color: red;
+  }
+  
+  [class^="col-"] {
+    padding: 2rem;
+  }
+  
+  [class^="col-"]:hover {
+    background-color: grey;
+  }
+  /*shift the task tr*/
+  #task{
+    padding-left:2%;
+  }
+  /*shift the Due-date tr*/
+  #due{
+    padding-left:4%;
+  }
+  
+  /*for all li elements */
+   li {
+    padding: 30px;
+    margin-bottom:-10px;
+    font-size: 1rem;
+    position: relative;
+    border-top: 1px solid #eeeeee;
+    transition: all 1s;
+  }
+  
+  /* for selecting elements whose class attribute is todo__description */
+  #task-description{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color:#eeeeee;
+  }
+  
+  /* for selecting elements whose class attribute is todo__category */
+    #task-category{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.1rem;
+   color: red;
+    position: absolute;
+    right: 2rem;
+    top: 1.10rem;
+  }
+  
+  /* for selecting elements whose class attribute is todo__due -date */
+  #due-date{
+    display: block;
+    color:#eeeeee;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+  
+
+/* for coloring different category */
+.PERSONAL{
+  color:red;
+}
+.WORK{
+ color:green;
+}
+.SCHOOL{
+  color:blueviolet
+}
+.CLEANING{
+  color:firebrick
+}
+
+.OTHER{
+  color:aquamarine;
+}
+  
